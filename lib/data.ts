@@ -8,6 +8,7 @@ import { SiRubyonrails } from "react-icons/si";
 import forexratesImg from "@/public/forexrates.png";
 import stormguardImg from "@/public/stormguard.png";
 import jobberImg from "@/public/jobber.jpeg";
+import gamealoonImg from "@/public/gamealoon.jpg";
 
 export const links = [
   {
@@ -41,7 +42,7 @@ export const experiencesData = [
     title: "Senior Software Engineer",
     location: "Jobber - Calgary, AB, CA",
     description:
-      "Led the AI exploration initiative where I had cross-team collaboartion with the inhouse ML team to figure out how we can leverage AI for our team's use cases. Later, explored AI further in hackathons where me & my team created multiple features based on AI; A simple linear regression based prediction system for line items value for a service and then a LLM based implementation for parsing of service quotations images via OpenAI's vision API and the data extracted to be stored as our own data model. Collaborated and contributed to multiple experiments as well as features which helped us gain insight with respect to user retention on platform. Led multiple projects where we experimented (as well as rolled out features) with various kind of onboarding and visual delight in both desktop as well as mobile app. Did pair programming with fellow engineers to help them get unblocked. Coordinated with a third-party vendor to narrow down on a bug for the deeplinking system. Cross-team collaboration to solve issues related to push notifcation and graphql. Did a Ruby on Rails presentation to impart deep knowledge around the some Rails concepts. Technology I worked with here are Ruby on Rails, ReactJS, React Native, Postgresql, Sidekiq, Graphql, Split, Datadog and AWS.",
+      "Led the AI exploration initiative where I had cross-team collaboration with the in-house ML team to figure out how we can leverage AI for our team's use cases. Later, explored AI further in hackathons where my team and I created multiple features based on AI: a simple linear regression-based prediction system for line items value for a service, and then an LLM-based implementation for parsing service quotations images via OpenAI's vision API, with the data extracted to be stored as our own data model (we won this one). Collaborated and contributed to multiple experiments, as well as features, which helped us gain insight with respect to user retention on the platform. Led multiple projects where we experimented (as well as rolled out features) with various kinds of onboarding and visual delight in both the desktop and mobile app. Engaged in pair programming with fellow engineers to help them overcome obstacles. Coordinated with a third-party vendor to narrow down a bug in the deeplinking system. Engaged in cross-team collaboration to solve issues related to push notifications and GraphQL. Conducted a Ruby on Rails presentation to impart deep knowledge of some Rails concepts. Acted as an interim scrum-master for the team. Technologies I worked with here include Ruby on Rails, ReactJS, React Native, PostgreSQL, Sidekiq, GraphQL, Split, Datadog, and AWS.",
     icon: React.createElement(SiRubyonrails),
     date: "Mar 2023 - Apr 2024",
   },
@@ -49,7 +50,7 @@ export const experiencesData = [
     title: "Professional Certificate in ML & AI",
     location: "University of California, Berkeley, Haas School of Business",
     description:
-      "Earned the certicate with a 90% plus score where I learned ML concepts like Clustering, PCA, Linear & Multiple Regression, Feature engineering & overfitting, Regularization, Time Series Analysis, Classification, K-Nearest Neighbors, Logistic Regression, Decision Trees, Gradient Descent, SVM, NLP, Ensemble techniques, Deep Neural Networks. Worked on real world problems as part of the course's Capstone projects using Python, Pandas, SciKit, Anaconda and other ML libraries /tools.",
+      "Earned the certificate with a score of 90% plus, where I learned ML concepts such as Clustering, PCA, Linear & Multiple Regression, Feature Engineering & Overfitting, Regularization, Time Series Analysis, Classification, K-Nearest Neighbors, Logistic Regression, Decision Trees, Gradient Descent, SVM, NLP, and Ensemble Techniques, as well as Deep Neural Networks. Worked on real-world problems as part of the course's Capstone projects using Python, Pandas, SciKit, Anaconda, and other ML libraries/tools.",
     icon: React.createElement(LuGraduationCap),
     date: "Nov 2022 - Jun 2023",
   },
@@ -57,7 +58,7 @@ export const experiencesData = [
     title: "Software Engineer (intermediate)",
     location: "Careteam - Vancouver, BC, CA",
     description:
-      "Wrote a framework for dynamic form parsing and export as FHIR support which made form parsing simpler for future cases. Wrote multiple POCs as part of our research day initiatives. Collaborated with team to contribute in the core product development by ensuring quality and timely delivery. Tech I worked with here are Ruby on Rails, ReactJS, Postgresql, FHIR and Azure.",
+      "Wrote a framework for dynamic form parsing and export with FHIR support, which simplified form parsing for future cases. Developed multiple proofs of concept (POCs) as part of our research day initiatives. Collaborated with the team to contribute to core product development by ensuring quality and timely delivery. Technologies I worked with here include Ruby on Rails, ReactJS, PostgreSQL, FHIR, and AzureWrote a framework for dynamic form parsing and export as FHIR support which made form parsing simpler for future cases. Wrote multiple POCs as part of our research day initiatives. Collaborated with team to contribute in the core product development by ensuring quality and timely delivery. Tech I worked with here are Ruby on Rails, ReactJS, Postgresql, FHIR and Azure.",
     icon: React.createElement(SiRubyonrails),
     date: "Apr 2021 - Mar 2023",
   },
@@ -65,7 +66,7 @@ export const experiencesData = [
     title: "Staff Software Engineer",
     location: "Enphase Energy - Bangalore, IN",
     description:
-      "Led the implementation of the microservice for the weather alerting system which was one of the key contributers in the $22 million revenue generation for one of the flagship hardware products from the company. Led the implementation of inhouse SAML service which saved lot of cost to the company. Led cross-team microservices initiatives with team of 4 engineers. Wrote POCs. Worked with Ruby on Rails, ReactJS, MongoDB, Mysql, Spring Boot, AWS.",
+      "Led the implementation of the microservice for the weather alerting system, which was one of the key contributors to the $22 million revenue generation for one of the flagship hardware products from the company. Also, led the implementation of an in-house SAML service, which saved a lot of costs for the company. Led cross-team microservices initiatives with a team of 4 engineers, including writing POCs. Worked with Ruby on Rails, ReactJS, MongoDB, MySQL, Spring Boot, and AWS.",
     icon: React.createElement(SiRubyonrails),
     date: "Jan 2019 - Mar 2021",
   },
@@ -73,7 +74,7 @@ export const experiencesData = [
     title: "Senior Software Engineer",
     location: "Ericsson India Global Services Pvt. Ltd. (R&D) - Bangalore, IN",
     description:
-      "Contributed in full-stack development of the admin app ensuring it met the quality standards. Fixed a performance bug (N+1 issue) which resulted in 3X increase in the speed. Supported QA by leading the Cucumber suite fixing. Mentored Junior engineers and helped them ramping up in Ruby on Rails. I also had a chance to be part of a fun hackathon where my team built a smart conference room system and won award for the same, Tech stack I worked with were Ruby on Rails, Android, and Mongodb.",
+      "Contributed to the full-stack development of the admin app, ensuring it met quality standards. Fixed a performance bug (N+1 issue) which resulted in a 3X increase in speed. Supported QA by leading the Cucumber suite fixing. Mentored junior engineers and helped them ramp up in Ruby on Rails. Additionally, participated in a fun hackathon where my team built a smart conference room system and won an award for the same. Technologies I worked with included Ruby on Rails, Android, and MongoDB",
     icon: React.createElement(SiRubyonrails),
     date: "Jan 2017 - Sep 2018",
   },
@@ -81,7 +82,7 @@ export const experiencesData = [
     title: "Lead Engineer",
     location: "Yourstory Media Pvt. Ltd. - Bangalore, IN",
     description:
-      "Led the initiative for one of the flagship products (was in backlog from 7 years) which was similar to crunchbase. Built, delivered the version one, co-led a team of 3 devs to maintain and enhance that. Along with that, I was one of the individual contributors for the core platform. Worked on range of tech ranging from Ruby on Rails, Wordpress, Node.js, Neo4j, AngularJS, Mysql, AWS.",
+      "Led the initiative for one of the flagship products (which had been in the backlog for 7 years) similar to Crunchbase. Built and delivered version one, co-led a team of 3 developers to maintain and enhance it. Additionally, I was one of the individual contributors to the core platform. Worked with a range of technologies including Ruby on Rails, WordPress, Node.js, Neo4j, AngularJS, MySQL, and AWS.",
     icon: React.createElement(SiRubyonrails),
     date: "Nov 2015 - Dec 2016",
   },
@@ -89,7 +90,7 @@ export const experiencesData = [
     title: "Member of Technical Staff",
     location: "Redcarpet Tech Pvt. Ltd. - Gurugram, IN",
     description:
-      "Being one of the first founding employees, built the first version of their gamification based restaurant loyalty web app which served 10K customers & near 40 restaurants per month. Post that, led that product along with their android app. Mentored junior engineers & interns. I started, learned and used Ruby on Rails along with MySQL, AWS and Android over here. Left the company after we made it to YC combinator.",
+      "Being one of the first founding employees, I built the first version of their gamification-based restaurant loyalty web app, which served 3000 customers and nearly 40 restaurants per month. After that, I led that product along with their Android app. I also mentored junior engineers and interns. During my time there, I started, learned, and used Ruby on Rails along with MySQL, AWS, and Android. I left the company after we made it to Y Combinator.",
     icon: React.createElement(SiRubyonrails),
     date: "Apr 2014 - Jun 2015",
   },
@@ -97,7 +98,7 @@ export const experiencesData = [
     title: "Founder & CTO",
     location: "Gamealoon (Eboie digital solutions pvt. ltd.) - Ghaziabad, IN",
     description:
-      "Built a platform for crowd-sourced game reviews with gamification. Used Play framework (java), Python (web-py), lighttpd, Mongodb and hosted it on ipage(Bluehost now). https://wellfound.com/company/gamealoon",
+      "Built a platform for crowd-sourced game reviews with gamification. Utilized the Play framework (Java), Python (web-py), lighttpd, MongoDB, and hosted it on iPage (now Bluehost). You can find more information about the company and the platform at https://wellfound.com/company/gamealoon.",
     icon: React.createElement(FaJava),
     date: "Dec 2012 - Jun 2014",
   },
@@ -105,7 +106,7 @@ export const experiencesData = [
     title: "Associate Software Engineer",
     location: "FirstRain inc. - Gurugram, IN",
     description:
-      "Worked on internal tool development for analytics and content management. I used groovy and grails here.",
+      "Worked on internal tool development for analytics. Acted as an individual contributor, reporting to the VP of Engineering at the California headquarters, in building a CMS for Salesforce data ingestion. I worked with Groovy and Grails here.",
     icon: React.createElement(DiGrails),
     date: "Aug 2012 - Apr 2013",
   },
@@ -113,7 +114,7 @@ export const experiencesData = [
     title: "Jr. Game Programmer",
     location: "Gameloft - Hyderabad, IN",
     description:
-      "Had the opporuntity to work on some popular 2D Gameloft titles. Main tech I learned and used over here was J2ME.",
+      "Had the opportunity to work on some popular 2D Gameloft titles such as Diamond Twister, Asphalt, Prince of persia and more. Collaborated with my Game producer and one QA to port a game on 90+ devices as a stretch project. The main technology I learned and used here was J2ME.",
     icon: React.createElement(FaJava),
     date: "Jul 2011 - Dec 2011",
   },
@@ -121,7 +122,7 @@ export const experiencesData = [
     title: "Software Engineer Trainee",
     location: "Intelligrape Software - Noida, IN",
     description:
-      "I worked as a software engineer in training where I had the opportunity to work on intuitive PDF parsing project. I learned and used Groovy and Grails over here.",
+      "I worked as a software engineer in training, where I had the opportunity to work on an intuitive PDF parsing project in a team. I learned and used Groovy and Grails during this time.",
     icon: React.createElement(DiGrails),
     date: "Jan 2011 - Jun 2011",
   },
@@ -129,7 +130,7 @@ export const experiencesData = [
     title: "Masters of Computer Application",
     location: "GGSIPU - Delhi, IN",
     description:
-      "Earned my Masters with 77% score where I had the opportuntity to learn various computer science fundamentals like DS, Algorithm, OS, Computer networks, Databases, Programming Lanugages and more.",
+      "Earned my Master's degree with a 77% score, where I had the opportunity to learn various computer science fundamentals such as Data Structures, Algorithms, Operating Systems, Computer Networks, Databases, Programming Languages, and more.",
     icon: React.createElement(LuGraduationCap),
     date: "Jul 2008 - Aug 2011",
   },
@@ -139,16 +140,23 @@ export const projectsData = [
   {
     title: "Jobber",
     description:
-      "Worked as a full-stack developer on many user facing features as well as experiments targeting user retention on the platform.",
+      "Worked as a full-stack developer on numerous user-facing features as well as experiments aimed at enhancing user retention on the platform.",
     tags: ["Ruby on Rails", "ReactJS", "React Native", "PostgresQL", "Split", "Graphql", "AWS"],
     imageUrl: jobberImg,
   },
   {
     title: "Stormguard",
     description:
-      "Headed the backend development of the first version and then led the team for the service powering this feature during my tenure in Enphase. ",
+      "Headed the backend development of the first version and then led the team for the service powering this feature during my tenure in Enphase.",
     tags: ["Spring Boot (java)", "Mongodb", "AWS"],
     imageUrl: stormguardImg,
+  },
+  {
+    title: "Gamealoon",
+    description:
+      "Built Gamealoon which was a crowd-sourced game reviews platform similar to IMDB, with a built-in gamification system for rewarding user content creation.",
+    tags: ["Play Framework (java)", "Mongodb", "web.py(python)", "lighttpd", "AWS", "Bluehost"],
+    imageUrl: gamealoonImg,
   },
   {
     title: "Forex rates",
