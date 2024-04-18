@@ -1,11 +1,8 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { DiGrails } from "react-icons/di";
 import { FaJava } from "react-icons/fa";
 import { SiRubyonrails } from "react-icons/si";
-import { SiPython } from "react-icons/si";
 
 
 import forexratesImg from "@/public/forexrates.png";
@@ -53,7 +50,7 @@ export const experiencesData = [
     location: "University of California, Berkeley, Haas School of Business",
     description:
       "Earned the certicate with a 90% plus score where I learned ML concepts like Clustering, PCA, Linear & Multiple Regression, Feature engineering & overfitting, Regularization, Time Series Analysis, Classification, K-Nearest Neighbors, Logistic Regression, Decision Trees, Gradient Descent, SVM, NLP, Ensemble techniques, Deep Neural Networks. Worked on real world problems as part of the course's Capstone projects using Python, Pandas, SciKit, Anaconda and other ML libraries /tools.",
-    icon: React.createElement(SiPython),
+    icon: React.createElement(LuGraduationCap),
     date: "Nov 2022 - Jun 2023",
   },
   {
