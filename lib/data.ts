@@ -9,6 +9,9 @@ import forexratesImg from "@/public/forexrates.png";
 import stormguardImg from "@/public/stormguard.png";
 import jobberImg from "@/public/jobber.jpeg";
 import gamealoonImg from "@/public/gamealoon.jpg";
+import codehugoImg from "@/public/codehugo1.png";
+import fakenewsdetectionImg from "@/public/fakenewsdetection.png";
+import bankmarketingImg from "@/public/bankmarketing.png";
 
 export const links = [
   {
@@ -138,11 +141,36 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Codehugo",
+    description:
+      "Codehugo is your personal AI code mentor.",
+    tags: ["NextJS", "Typescript", "React", "PostgresQL", "Prisma", "OpenAI", "Vercel"],
+    imageUrl: codehugoImg,
+    url: "https://www.codehugo.com",
+  },
+  {
+    title: "Fake News Detection",
+    description:
+      "Fake news detection using Passive Aggressive Classifier (PAC).",
+    tags: ["Python", "Pandas", "Seaborn", "Numpy", "Nltk", "Sklearn", "Google Colab"],
+    imageUrl: fakenewsdetectionImg,
+    url: "https://github.com/parthoghosh24/fake_news_detection",
+  },
+  {
+    title: "Banking marketing campaign analysis",
+    description:
+      "Determine whether a client will subscribe to term deposit or not using classification",
+    tags: ["Python", "Pandas", "Seaborn", "Numpy", "Sklearn", "Google Colab"],
+    imageUrl: bankmarketingImg,
+    url: "https://github.com/parthoghosh24/banking_marketing_campaign",
+  },
+  {
     title: "Jobber",
     description:
       "Worked as a full-stack developer on numerous user-facing features as well as experiments aimed at enhancing user retention on the platform.",
     tags: ["Ruby on Rails", "ReactJS", "React Native", "PostgresQL", "Split", "Graphql", "AWS"],
     imageUrl: jobberImg,
+    url: "https://www.getjobber.com",
   },
   {
     title: "Stormguard",
@@ -150,6 +178,7 @@ export const projectsData = [
       "Headed the backend development of the first version and then led the team for the service powering this feature during my tenure in Enphase.",
     tags: ["Spring Boot (java)", "Mongodb", "AWS"],
     imageUrl: stormguardImg,
+    url: "https://support.enphase.com/s/article/what-is-storm-guard",
   },
   {
     title: "Gamealoon",
@@ -157,6 +186,7 @@ export const projectsData = [
       "Built Gamealoon which was a crowd-sourced game reviews platform similar to IMDB, with a built-in gamification system for rewarding user content creation.",
     tags: ["Play Framework (java)", "Mongodb", "web.py(python)", "lighttpd", "AWS", "Bluehost"],
     imageUrl: gamealoonImg,
+    url: "https://wellfound.com/company/gamealoon",
   },
   {
     title: "Forex rates",
@@ -164,6 +194,7 @@ export const projectsData = [
       "Developed this open source gem for easy forex integration. It is built on top of https://exchangeratesapi.io/ with caching support. ",
     tags: ["Ruby", "Faraday"],
     imageUrl: forexratesImg,
+    url: "https://rubygems.org/gems/forex_rates",
   },
 ] as const;
 
