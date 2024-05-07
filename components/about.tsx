@@ -41,12 +41,12 @@ export default function About() {
 
       <br/>
       <br/>
-      Whether it's building robust software solutions, collaboarting with teams to achieve ambitious goals, or exploring new frontiers in technology, I'm passionate about leveraging my expertise to drive meaningful impact and empower organizations to thrive.
+      Whether it's building robust software solutions, collaborating with teams to achieve ambitious goals, or exploring new frontiers in technology, I'm passionate about leveraging my expertise to drive meaningful impact and empower organizations to thrive.
       </p>
 
       <p>
         <span className="italic font-medium">When I'm not coding for work</span>, I enjoy playing
-        video games, work on personal coding projects, watching movies, cooking, driving, and learn about things I am interested in.
+        video games, work on personal coding projects, watch movies, cooking, driving, and learn about things I am interested in.
       </p>
     </motion.section>
   );

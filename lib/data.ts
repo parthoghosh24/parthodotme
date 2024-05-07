@@ -3,6 +3,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import { DiGrails } from "react-icons/di";
 import { FaJava } from "react-icons/fa";
 import { SiRubyonrails } from "react-icons/si";
+import { RiOpenaiFill } from "react-icons/ri";
+
 
 
 import forexratesImg from "@/public/forexrates.png";
@@ -42,10 +44,32 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Co-Founder",
+    location: "Codehugo - Calgary, AB, CA",
+    description:
+      `Conceptualized the platform after evaluating the capabilities of LLM.
+       Built the architecture and coded the existing version.
+       Researched existing code judge platforms like LeetCode, Hackerrank to establish the differentiators.
+       Ramped up on a new JS web framework (NextJS) as I was working on a low-key Windows machined and the Ruby on Rails
+       ecosystem is a little hard to work with on the Windows platform. Ramped up on Vercel IAAS, OpenAI and Stripe.
+       Pitched the product to my co-founder and convinced him to work on it. Worked with my co-founder to tweak the product;
+       learned aspects around product development like 3-click strategy, product messaging, launch strategy, etc.
+       Post launch we received 1k+ page views, 300+ visitors (600+ in total) and 10 organic signups in a week. `,
+    icon: React.createElement(RiOpenaiFill),
+    date: "Apr 2024 - Current",
+  },
+  {
     title: "Senior Software Engineer",
     location: "Jobber - Calgary, AB, CA",
     description:
-      "Led the AI exploration initiative where I had cross-team collaboration with the in-house ML team to figure out how we can leverage AI for our team's use cases. Later, explored AI further in hackathons where my team and I created multiple features based on AI: a simple linear regression-based prediction system for line items value for a service, and then an LLM-based implementation for parsing service quotations images via OpenAI's vision API, with the data extracted to be stored as our own data model (we won this one). Collaborated and contributed to multiple experiments, as well as features, which helped us gain insight with respect to user retention on the platform. Led multiple projects where we experimented (as well as rolled out features) with various kinds of onboarding and visual delight in both the desktop and mobile app. Engaged in pair programming with fellow engineers to help them overcome obstacles. Coordinated with a third-party vendor to narrow down a bug in the deeplinking system. Engaged in cross-team collaboration to solve issues related to push notifications and GraphQL. Conducted a Ruby on Rails presentation to impart deep knowledge of some Rails concepts. Acted as an interim scrum-master for the team. Technologies I worked with here include Ruby on Rails, ReactJS, React Native, PostgreSQL, Sidekiq, GraphQL, Split, Datadog, and AWS.",
+      `Worked on Growth Retention team, built and shipped user retention experiments, features and AI MVPs for over 200K businesses.
+      Led team of 3 to build an OCR based service as part of a departmental hackathon to make user data import during onboarding simpler using Rails, ReactJS, Graphql, OpenAI’s Vision API which we won.
+      Led a team of 3 to build a simple Linear regression based prediction system for Line item prices for a job to reduce job creation friction for users using Python Pandas, Sklearn, Anaconda and reactjs.
+      Led a project with a stringent deadline to build a dynamic celebration banner to be rendered based on the number of Google reviews received with 4+ ratings using Rails, Split, Graphql, ReactJS. It was delivered before the due date and  impacted over 50k users.
+      Led multiple projects to build multiple experiments around user onboarding in the mobile app to improve user retention using React Native, Split, Rails, Graphql. One aspect of an experiment got converted into a feature after seeing a positive response to it      
+      Supported the team as an interim Scrum master running all Sprint rituals and ensuring the momentum.
+      Supported and mentored team members via pair programming and code reviews.
+      `,
     icon: React.createElement(SiRubyonrails),
     date: "Mar 2023 - Apr 2024",
   },
@@ -61,7 +85,10 @@ export const experiencesData = [
     title: "Software Engineer (intermediate)",
     location: "Careteam - Vancouver, BC, CA",
     description:
-      "Wrote a framework for dynamic form parsing and export with FHIR support, which simplified form parsing for future cases. Developed multiple proofs of concept (POCs) as part of our research day initiatives. Collaborated with the team to contribute to core product development by ensuring quality and timely delivery. Technologies I worked with here include Ruby on Rails, ReactJS, PostgreSQL, FHIR, and AzureWrote a framework for dynamic form parsing and export as FHIR support which made form parsing simpler for future cases. Wrote multiple POCs as part of our research day initiatives. Collaborated with team to contribute in the core product development by ensuring quality and timely delivery. Tech I worked with here are Ruby on Rails, ReactJS, Postgresql, FHIR and Azure.",
+      `Worked on core product team, built and shipped features impacting 40+ health orgs. 
+       Led implementation of a framework for dynamic patient data form parsing and export as FHIR format using Rails and Ruby metaprogramming which made adding new forms simple and improved team productivity.
+       Took ownership and re-wrote an UI feature using a new lib (react-select) because the old lib (react-tab-input) was deprecated and breaking the build. This improved code quality.
+       Conducted AI learning session for team which helped improving team's AI knowledge base.`,
     icon: React.createElement(SiRubyonrails),
     date: "Apr 2021 - Mar 2023",
   },
@@ -69,7 +96,10 @@ export const experiencesData = [
     title: "Staff Software Engineer",
     location: "Enphase Energy - Bangalore, IN",
     description:
-      "Led the implementation of the microservice for the weather alerting system, which was one of the key contributors to the $22 million revenue generation for one of the flagship hardware products from the company. Also, led the implementation of an in-house SAML service, which saved a lot of costs for the company. Led cross-team microservices initiatives with a team of 4 engineers, including writing POCs. Worked with Ruby on Rails, ReactJS, MongoDB, MySQL, Spring Boot, and AWS.",
+      `Worked on the core Software R&D team, built, enhanced, and shipped various microservices as well as contributed to the monolith app for solar devices powering over 100K homes and 3k partner companies.
+      Led implementation of a backend service as an IC for a weather alerting system which became a key contributor in a product offering generating $22 million in revenue using Java (Spring Boot), MongoDb, MySQL, Docker, AWS. Built a tool for the QA team to mimic real weather alerts for testing.
+      Led a team of 3 to implement new microservices as well as enhance an inhouse SAML service which I wrote as an IC to save 1000’s of $s for the company.
+      Made changes to the telemetry service to support 20K users who bought new battery devices.`,
     icon: React.createElement(SiRubyonrails),
     date: "Jan 2019 - Mar 2021",
   },
@@ -205,6 +235,9 @@ export const skillsData = [
   "Javasctipt",
   "React",
   "React Native",
+  "Python",
+  "Machine Learning",
+  "OpenAI",
   "HTML",
   "CSS",
   "Git",
