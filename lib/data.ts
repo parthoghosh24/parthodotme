@@ -65,7 +65,7 @@ export const experiencesData = [
       `Worked on Growth Retention team, built and shipped user retention experiments, features and AI MVPs for over 200K businesses.
       Led team of 3 to build an OCR based service as part of a departmental hackathon to make user data import during onboarding simpler using Rails, ReactJS, Graphql, OpenAI’s Vision API which we won.
       Led a team of 3 to build a simple Linear regression based prediction system for Line item prices for a job to reduce job creation friction for users using Python Pandas, Sklearn, Anaconda and reactjs.
-      Led a project with a stringent deadline to build a dynamic celebration banner to be rendered based on the number of Google reviews received with 4+ ratings using Rails, Split, Graphql, ReactJS. It was delivered before the due date and  impacted over 50k users.
+      Led a project with a stringent deadline to build a dynamic celebration banner to be rendered based on the number of Google reviews received with 4+ ratings using Rails, Split, Graphql, ReactJS. It was delivered before the due date and  impacted over 10k users.
       Led multiple projects to build multiple experiments around user onboarding in the mobile app to improve user retention using React Native, Split, Rails, Graphql. One aspect of an experiment got converted into a feature after seeing a positive response to it      
       Supported the team as an interim Scrum master running all Sprint rituals and ensuring the momentum.
       Supported and mentored team members via pair programming and code reviews.
