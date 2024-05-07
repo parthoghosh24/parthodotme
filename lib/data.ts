@@ -97,8 +97,8 @@ export const experiencesData = [
     location: "Enphase Energy - Bangalore, IN",
     description:
       `Worked on the core Software R&D team, built, enhanced, and shipped various microservices as well as contributed to the monolith app for solar devices powering over 100K homes and 3k partner companies.
-      Led implementation of a backend service as an IC for a weather alerting system which became a key contributor in a product offering generating $22 million in revenue using Java (Spring Boot), MongoDb, MySQL, Docker, AWS. Built a tool for the QA team to mimic real weather alerts for testing.
-      Led a team of 3 to implement new microservices as well as enhance an inhouse SAML service which I wrote as an IC to save 1000’s of $s for the company.
+      Led implementation of a backend service as an individual contributor for a weather alerting system which became a key contributor in a product offering generating $22 million in revenue serving 3k+ users using Java (Spring Boot), MongoDb, MySQL, Docker, AWS. Built a tool for the QA team to mimic real weather alerts for testing.
+      Led a team of 3 to implement new microservices as well as enhance an inhouse SAML service which I wrote using OpenSAML as an individual contributor to save 1000’s of $s for the company.
       Made changes to the telemetry service to support 20K users who bought new battery devices.`,
     icon: React.createElement(SiRubyonrails),
     date: "Jan 2019 - Mar 2021",
