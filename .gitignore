@@ -17,7 +17,7 @@
 
 # misc
 .DS_Store
-/.tools-versions
+.tool-versions
 *.pem
 
 # debug
