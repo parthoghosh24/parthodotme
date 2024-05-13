@@ -97,7 +97,7 @@ export const experiencesData = [
     location: "Enphase Energy - Bangalore, IN",
     description:
       `Worked on the core Software R&D team, built, enhanced, and shipped various microservices as well as contributed to the monolith app for solar devices powering over 100K homes and 3k partner companies.
-      Led implementation of a backend service as an individual contributor for a weather alerting system which became a key contributor in a product offering generating $22 million in revenue serving 3k+ users using Java (Spring Boot), MongoDb, MySQL, Docker, AWS. Built a tool for the QA team to mimic real weather alerts for testing.
+      Led implementation of a backend service as an individual contributor for a weather alerting system which became a key contributor in a product offering generating $22 million in revenue serving 3k+ users using Java (Spring Boot), MongoDb, MySQL, Docker, AWS. Built a tool for the QA team to mimic real weather alerts for testing. Liasised with Front-end product manager and team to ensure succesful delivery of the product.
       Led a team of 3 to implement new microservices as well as enhance an inhouse SAML service which I wrote using OpenSAML as an individual contributor to save 1000’s of $s for the company.
       Made changes to the telemetry service to support 20K users who bought new battery devices.`,
     icon: React.createElement(SiRubyonrails),
@@ -107,7 +107,11 @@ export const experiencesData = [
     title: "Senior Software Engineer",
     location: "Ericsson India Global Services Pvt. Ltd. (R&D) - Bangalore, IN",
     description:
-      "Contributed to the full-stack development of the admin app, ensuring it met quality standards. Fixed a performance bug (N+1 issue) which resulted in a 3X increase in speed. Supported QA by leading the Cucumber suite fixing. Mentored junior engineers and helped them ramp up in Ruby on Rails. Additionally, participated in a fun hackathon where my team built a smart conference room system and won an award for the same. Technologies I worked with included Ruby on Rails, Android, and MongoDB",
+      `Worked on the Cable industry product offering by Ericsson powering major cable companies of North America.
+       Worked on implementation, maintenance and enhancement of the core monolith admin app used by the Cable companies to manage their media distribution using Ruby on Rails, JQuery, Cucumber, and MongoDB.
+       Detected a query issue using Mongo query explainer and fixed an N+1 problem which resulted in 3X performance boost in the service.
+       Helped junior engineers ramp up in Ruby on Rails by assigning them to smaller tickets & side projects.
+       As part of company wide hackathon, I contributed in architecture of a smart meeting rooms system and wrote an android app as an Individual contributor for the same. We came 2nd in entire company.`,
     icon: React.createElement(SiRubyonrails),
     date: "Jan 2017 - Sep 2018",
   },
@@ -115,7 +119,9 @@ export const experiencesData = [
     title: "Lead Engineer",
     location: "Yourstory Media Pvt. Ltd. - Bangalore, IN",
     description:
-      "Led the initiative for one of the flagship products (which had been in the backlog for 7 years) similar to Crunchbase. Built and delivered version one, co-led a team of 3 developers to maintain and enhance it. Additionally, I was one of the individual contributors to the core platform. Worked with a range of technologies including Ruby on Rails, WordPress, Node.js, Neo4j, AngularJS, MySQL, and AWS.",
+      `Worked on the core products development team where I led as well as contributed as an individual contributor in their multiple offerings to 1 million users per month.
+      Led the implementation of one of the flaship product offering (similar to Crunchbase) initially as individual contributor and later on as a lead using Play Framework (Java), Mysql, and, AWS. 
+      Later based on user feedback and top management decision, I worked on it from ground up with a Product manager, CTO and few more tech members to build the version 2 using Ruby on Rails, AngularJS, Neo4J (graph db), Mongo and AWS. .`,
     icon: React.createElement(SiRubyonrails),
     date: "Nov 2015 - Dec 2016",
   },
@@ -123,7 +129,8 @@ export const experiencesData = [
     title: "Member of Technical Staff",
     location: "Redcarpet Tech Pvt. Ltd. - Gurugram, IN",
     description:
-      "Being one of the first founding employees, I built the first version of their gamification-based restaurant loyalty web app, which served 3000 customers and nearly 40 restaurants per month. After that, I led that product along with their Android app. I also mentored junior engineers and interns. During my time there, I started, learned, and used Ruby on Rails along with MySQL, AWS, and Android. I left the company after we made it to Y Combinator.",
+      `Built the core loyalty web app as a founding engineer using Ruby on Rails, Mysql, AWS and later on maintained and enhanced their Android app to power 3K+ users per month and 40+ restaurants.
+      We were accepted in YC.`,
     icon: React.createElement(SiRubyonrails),
     date: "Apr 2014 - Jun 2015",
   },
@@ -131,7 +138,8 @@ export const experiencesData = [
     title: "Founder & CTO",
     location: "Gamealoon (Eboie digital solutions pvt. ltd.) - Ghaziabad, IN",
     description:
-      "Built a platform for crowd-sourced game reviews with gamification. Utilized the Play framework (Java), Python (web-py), lighttpd, MongoDB, and hosted it on iPage (now Bluehost). You can find more information about the company and the platform at https://wellfound.com/company/gamealoon.",
+      `Built a platform for crowd-sourced game reviews with gamification using the Play framework (Java), Python (web-py), lighttpd, MongoDB, and hosted it on iPage (now Bluehost). 
+      You can find more information about the company and the platform at https://wellfound.com/company/gamealoon.`,
     icon: React.createElement(FaJava),
     date: "Dec 2012 - Jun 2014",
   },
@@ -139,7 +147,9 @@ export const experiencesData = [
     title: "Associate Software Engineer",
     location: "FirstRain inc. - Gurugram, IN",
     description:
-      "Worked on internal tool development for analytics. Acted as an individual contributor, reporting to the VP of Engineering at the California headquarters, in building a CMS for Salesforce data ingestion. I worked with Groovy and Grails here.",
+      `Worked on internal tool development for analytics. 
+       Worked as an individual contributor, reporting to the VP of Engineering at the California headquarters, in building a CMS for Salesforce data ingestion using Grails framework. 
+       I worked with Groovy and Grails here.`,
     icon: React.createElement(DiGrails),
     date: "Aug 2012 - Apr 2013",
   },
