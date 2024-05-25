@@ -97,8 +97,8 @@ export const experiencesData = [
     location: "Enphase Energy - Bangalore, IN",
     description:
       `Worked on the core Software R&D team, built, enhanced, and shipped various microservices as well as contributed to the monolith app for solar devices powering over 100K homes and 3k partner companies.
-      Led implementation of a backend service as an individual contributor for a weather alerting system which became a key contributor in a product offering generating $22 million in revenue serving 3k+ users using Java (Spring Boot), MongoDb, MySQL, Docker, AWS. Built a tool for the QA team to mimic real weather alerts for testing. Liasised with Front-end product manager and team to ensure succesful delivery of the product.
-      Led a team of 3 to implement new microservices as well as enhance an inhouse SAML service which I wrote using OpenSAML as an individual contributor to save 1000’s of $s for the company.
+      Led implementation of a backend service as an individual contributor for a weather alerting system which became a key contributor in a product offering generating $22 million in revenue serving 3k+ users using Java (Spring Boot), MongoDb, MySQL, Docker, AWS. Built a tool for the QA team to mimic real weather alerts for testing. Liaised with Front-end product manager and team to ensure successful delivery of the product.
+      Led a team of 3 to implement new microservices as well as enhance an in-house SAML service which I wrote using OpenSAML as an individual contributor to save 1000’s of $s for the company.
       Made changes to the telemetry service to support 20K users who bought new battery devices.`,
     icon: React.createElement(SiRubyonrails),
     date: "Jan 2019 - Mar 2021",
@@ -119,8 +119,8 @@ export const experiencesData = [
     title: "Lead Engineer",
     location: "Yourstory Media Pvt. Ltd. - Bangalore, IN",
     description:
-      `Worked on the core products development team where I led as well as contributed as an individual contributor in their multiple offerings to 1 million users per month.
-      Led the implementation of one of the flaship product offering (similar to Crunchbase) initially as individual contributor and later on as a lead using Play Framework (Java), Mysql, and, AWS. 
+      `Worked on the core products development team where I led as well as contributed as an individual contributor in their multiple offerings to 1 million users per month using Wordpress, RoR, Node.js.
+      Led the implementation of one of the flagship product offering (similar to Crunchbase) initially as individual contributor and later on as a lead using Play Framework (Java), Mysql, and, AWS. 
       Later based on user feedback and top management decision, I worked on it from ground up with a Product manager, CTO and few more tech members to build the version 2 using Ruby on Rails, AngularJS, Neo4J (graph db), Mongo and AWS. .`,
     icon: React.createElement(SiRubyonrails),
     date: "Nov 2015 - Dec 2016",
@@ -163,7 +163,7 @@ export const experiencesData = [
   },
   {
     title: "Software Engineer Trainee",
-    location: "Intelligrape Software - Noida, IN",
+    location: "Intelligrape Software (To The New) - Noida, IN",
     description:
       "I worked as a software engineer in training, where I had the opportunity to work on an intuitive PDF parsing project in a team. I learned and used Groovy and Grails during this time.",
     icon: React.createElement(DiGrails),
