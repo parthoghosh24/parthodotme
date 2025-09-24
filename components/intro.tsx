@@ -16,7 +16,7 @@ export default function Intro() {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
-    <div
+    <section
       ref={ref}
       id="home"
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
@@ -65,7 +65,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Partho.</span> I'm a{" "}
         <span className="font-bold">Full-Stack Software Engineer</span> by {" "}
-        day and a student game developer by night. I have been building things professionally from past <span className="font-bold">12+ years</span></span>.
+        day and a student game developer by night. I have been building things professionally from past <span className="font-bold">12+ years</span>.
       </motion.h1>
 
       <motion.div
@@ -104,6 +104,6 @@ export default function Intro() {
           <FaGithubSquare />
         </a>
       </motion.div>
-    </div>
+    </section>
   );
 }
