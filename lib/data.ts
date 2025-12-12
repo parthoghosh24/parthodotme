@@ -30,6 +30,10 @@ export const links = [
     hash: "#projects",
   },
   {
+    name: "Games",
+    hash: "#games",
+  },
+  {
     name: "Skills",
     hash: "#skills",
   },
@@ -259,6 +263,35 @@ export const projectsData = [
     url: "https://rubygems.org/gems/forex_rates",
   },
 ] as const;
+
+
+export const gamesData = [
+  {
+    title: "Slash (UE 5 project)",
+    description:
+      "Slash was built as part of Udemy Unreal Engine C++ course.",
+    tags: ["Unreal Engine 5.5", "C++", "Mixamo", "Blender"],
+    imageUrl: codehugoImg,
+    url: "https://github.com/parthoghosh24/Slash",
+  },
+  {
+    title: "Dungeon Grid",
+    description:
+      "Dungeon Grid is an arcade action game based on a floor-on-lava type gameplay. This game is built as part of OMSCS CS-6457 project by team Starline Studios in Unity 6. 11 downloads in first week.",
+    tags: ["Godot", "GDScript", "Game development"],
+    imageUrl: dungeonRaidImg,
+    url: "https://starlinestudios.itch.io/dungeon-grid",
+  },
+  {
+    title: "Dungeon Raid",
+    description:
+      "Dungeon Raid is a 3D third person stealth action game. 10+ downloads in first week.",
+    tags: ["Godot", "GDScript", "Game development"],
+    imageUrl: dungeonRaidImg,
+    url: "https://porthorisnaagu.itch.io/dungeon-raid",
+  },
+] as const;
+
 
 export const skillsData = [
   "Ruby",
