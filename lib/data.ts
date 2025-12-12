@@ -57,8 +57,7 @@ export const experiencesData = [
       `Work in Patient facing app team where I am responsible for helping the team in shipping customer facing features.
        Shipped consent management system for a Telus health client having over 7k+ patient profiles using Ruby (Sinatra), Docker, ReactJS (TS), Unleash, Postgresql and AWS.
        Contributed in architectural decision regarding implementing a server driven UI system. Took initiative to improve the existing data scripting system and converting it into a framework to 
-       improve developer productivity in Ruby. Helped setup datadog RUM dashboard for tracking user behaviour. Worked with product management, design to understand requirements for improving the patient intake flow and implemented the same.
-       Presented feature demos to team multiple times as part of show and tell.`,
+       improve developer productivity in Ruby. Presented feature demos to team multiple times as part of show and tell.`,
     icon: React.createElement(SiRuby),
     date: "Jul 2024 - Current",
   },
@@ -200,14 +199,6 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "Dungeon Raid",
-    description:
-      "Dungeon Raid is a 3D third person stealth action game. 10+ downloads in first week.",
-    tags: ["Godot", "GDScript", "Game development"],
-    imageUrl: dungeonRaidImg,
-    url: "https://porthorisnaagu.itch.io/dungeon-raid",
-  },
   {
     title: "Codehugo",
     description:
