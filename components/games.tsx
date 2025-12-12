@@ -2,7 +2,7 @@
 
 import React from "react";
 import SectionHeading from "./section-heading";
-import { projectsData } from "@/lib/data";
+import { gamesData } from "@/lib/data";
 import Game from "./game";
 import { useSectionInView } from "@/lib/hooks";
 
@@ -13,7 +13,7 @@ export default function Games() {
     <section ref={ref} id="games" className="scroll-mt-28 mb-28">
       <SectionHeading>My games</SectionHeading>
       <div>
-        {projectsData.map((project, index) => (
+        {gamesData.map((project, index) => (
           <React.Fragment key={index}>
             <Project {...project} />
           </React.Fragment>
