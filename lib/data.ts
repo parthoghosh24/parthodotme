@@ -280,7 +280,7 @@ export const gamesData = [
     title: "Dungeon Grid",
     description:
       "Dungeon Grid is an arcade action game based on a floor-on-lava type gameplay. This game is built as part of OMSCS CS-6457 project by team Starline Studios in Unity 6. 11 downloads in first week.",
-    tags: ["Godot", "GDScript", "Game development"],
+    tags: ["Unity 6", "C#", "Game development", "Mixamo", "Git"],
     imageUrl: dungeonGridImg,
     url: "https://starlinestudios.itch.io/dungeon-grid",
   },
