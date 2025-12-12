@@ -15,6 +15,8 @@ import codehugoImg from "@/public/codehugo1.png";
 import dungeonRaidImg from "@/public/dungeonraid.png";
 import fakenewsdetectionImg from "@/public/fakenewsdetection.png";
 import bankmarketingImg from "@/public/bankmarketing.png";
+import dungeonGridImg from "@/public/DungeonGrid.png";
+import slashImg from "@/public/Slash.jpeg";
 
 export const links = [
   {
@@ -271,7 +273,7 @@ export const gamesData = [
     description:
       "Slash was built as part of Udemy Unreal Engine C++ course.",
     tags: ["Unreal Engine 5.5", "C++", "Mixamo", "Blender"],
-    imageUrl: codehugoImg,
+    imageUrl: slashImg,
     url: "https://github.com/parthoghosh24/Slash",
   },
   {
@@ -279,7 +281,7 @@ export const gamesData = [
     description:
       "Dungeon Grid is an arcade action game based on a floor-on-lava type gameplay. This game is built as part of OMSCS CS-6457 project by team Starline Studios in Unity 6. 11 downloads in first week.",
     tags: ["Godot", "GDScript", "Game development"],
-    imageUrl: dungeonRaidImg,
+    imageUrl: dungeonGridImg,
     url: "https://starlinestudios.itch.io/dungeon-grid",
   },
   {
