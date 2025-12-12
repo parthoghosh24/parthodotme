@@ -40,10 +40,6 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
-  },
-  {
     name: "Contact",
     hash: "#contact",
   },
@@ -287,6 +283,12 @@ export const gamesData = [
 
 
 export const skillsData = [
+  "Unity 6",
+  "C#",
+  "Unreal Engine  5",
+  "C++",
+  "Godot",
+  "GDScript",
   "Ruby",
   "Ruby on Rails",
   "Typescript",
