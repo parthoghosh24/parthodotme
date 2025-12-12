@@ -13,9 +13,9 @@ export default function Games() {
     <section ref={ref} id="games" className="scroll-mt-28 mb-28">
       <SectionHeading>My games</SectionHeading>
       <div>
-        {gamesData.map((project, index) => (
+        {gamesData.map((game, index) => (
           <React.Fragment key={index}>
-            <Project {...project} />
+            <Game {...game} />
           </React.Fragment>
         ))}
       </div>
