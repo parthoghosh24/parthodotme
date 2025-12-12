@@ -1,11 +1,11 @@
 "use client";
 
 import { useRef } from "react";
-import { projectsData } from "@/lib/data";
+import { gamesData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-type ProjectProps = (typeof projectsData)[number];
+type GameProps = (typeof gamesData)[number];
 
 export default function Game({
   title,
@@ -13,7 +13,7 @@ export default function Game({
   tags,
   imageUrl,
   url,
-}: ProjectProps) {
+}: GameProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
